@@ -1,0 +1,144 @@
+body {
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+#header {
+    padding: 0px;
+    background: #ccc;
+}
+
+/*div principal que envuelve todo el body */
+#container {
+    background: #fff;
+}
+
+#navigation-footer  {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+
+
+}
+
+
+/*color para el menu del header*/
+#navigation , #navigation-footer {
+    background: #333;
+    text-align: center;
+align-items: center; 
+align-content: center; 
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*margin y padding para cada elemento de los menus */
+#navigation ul , #navigation-footer  ul {
+    margin: 0;
+    padding: 0;
+float: left;
+
+
+
+    
+
+
+}
+
+/*quitar el punto de cada elemento de los menus */
+#navigation ul li, #navigation-footer ul li {
+    list-style-type: none;
+}
+
+/*color para cada hyperlink  de los menus*/
+#navigation li a , #navigation-footer  li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+
+
+
+}
+
+/*que se vea verde cuando toca cada elemento de los menus*/
+#navigation li a:hover , 
+#navigation-footer li a:hover{
+    background: #383;
+    
+}
+
+/* para el article del main section*/
+#content {
+    clear: left;
+    float: left;
+    display: inline;
+}
+
+/*para el contenedor de la imagen principal */
+#content-img{
+	float: left;
+	width: 100%;
+}
+
+
+/* para el section de todo el contenido */
+#content-container {
+    width: 100%;
+    background: #FFF;
+}
+
+
+/* para poner palabras con colores azul, rojo y verde en los asides */
+
+#aside-center .blue-color, #aside-right .blue-color{
+	color: #0000ff;
+}
+#aside-center .red-color , #aside-right #sub-section-right .red-color{
+	color: #ff0000;
+}
+#aside-center .green-color , #aside-right .green-color{
+	color: #32CD32;	
+}
+
+/*para el sub-section, el div verde  */
+#sub-section-center{
+    background: greenyellow;
+    border: 1px solid black;
+    text-align: left;
+}
+/*para el estilo del sub-sub-section, cursiva */
+#sub-sub-section{
+    font-style: italic;
+    padding-top: 7px;
+}
+
+/* para hacer letra negrita*/
+.strong{
+   font-weight: bold;
+}
+
+/* para el footer */
+#footer {
+	text-align: center;
+    background: #333;
+	color: #fff;
+	height: 30px;
+    padding-top: 4px;
+	text-align: center;
+        
+        align-self: flex-end;
+        line-height: 1;
+}
+
+#footer p{
+	margin: 0;
+	text-align: center;
+}
+
